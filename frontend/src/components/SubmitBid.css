@@ -1,0 +1,41 @@
+.modal-child {
+  width: 31.5px;
+  height: 0;
+  position: relative;
+  display: none;
+}
+.modal,
+.submit-bid {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.modal {
+  flex: 1;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 32px;
+  box-sizing: border-box;
+  gap: 36px;
+}
+.submit-bid {
+  width: 520px;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  max-height: 100%;
+  overflow: auto;
+}
+@media screen and (max-width: 450px) {
+  .modal {
+    gap: 18px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    box-sizing: border-box;
+  }
+}

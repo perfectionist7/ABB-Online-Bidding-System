@@ -1,0 +1,51 @@
+.div,
+.input-label {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div {
+  align-self: stretch;
+  width: 7px;
+}
+.input-label {
+  color: #1f1f1f;
+  display: inline-block;
+  min-width: 91px;
+}
+.label33 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 365px 0 0;
+  box-sizing: border-box;
+  gap: 4px;
+  max-width: 100%;
+}
+.div1 {
+  width: 43px;
+  position: relative;
+  line-height: 20px;
+  color: #1f1f1f;
+}
+.label32 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #ef3934;
+  font-family: Poppins;
+}
+@media screen and (max-width: 450px) {
+  .label33 {
+    padding-right: 182px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,55 @@
+.demo,
+.label20 {
+  height: 19px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.label20 {
+  align-self: stretch;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.demo {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: Inter;
+  font-size: 14px;
+  background-color: transparent;
+  flex: 1;
+  line-height: 20px;
+  color: #344154;
+  text-align: left;
+  min-width: 221px;
+  max-width: 100%;
+  padding: 0;
+}
+.bar2,
+.input-labels {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bar2 {
+  height: 43px;
+  border-radius: 4px;
+  border: 1.5px solid #64748b;
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 10.5px 12px;
+}
+.input-labels {
+  height: 63px;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+  font-size: 14px;
+  color: #191d23;
+  font-family: Manrope;
+}

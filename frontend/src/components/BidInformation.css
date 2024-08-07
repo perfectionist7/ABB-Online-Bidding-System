@@ -1,0 +1,144 @@
+.title58 {
+  width: 381px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.ends-in18,
+.title58,
+.title59 {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.title59 {
+  width: 386px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.ends-in18 {
+  align-self: stretch;
+  height: 28px;
+  display: inline-block;
+}
+.end-time-value-container {
+  align-self: stretch;
+  gap: 18px;
+}
+.bid-details,
+.end-time-container,
+.end-time-value-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.end-time-container {
+  align-self: stretch;
+  gap: 24px;
+}
+.bid-details {
+  flex: 1;
+  padding: 6px 0 0;
+  box-sizing: border-box;
+}
+.price36,
+.price37 {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 59px;
+  white-space: nowrap;
+}
+.price37 {
+  min-width: 54px;
+}
+.previous-price-container,
+.price-value-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.previous-price-container {
+  flex-direction: row;
+  padding: 0 0 0 5px;
+}
+.price-value-container {
+  flex-direction: column;
+  gap: 12px;
+}
+.price-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 4px;
+}
+.label35 {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: Manrope;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 55px;
+}
+.right-icon19 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.cta21,
+.price-container-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.cta21 {
+  cursor: pointer;
+  border: 0;
+  padding: 11px 19px 11px 23px;
+  background-color: transparent;
+  border-radius: 4px;
+  background: linear-gradient(
+    79.69deg,
+    rgba(29, 78, 216, 0.5) 11.66%,
+    rgba(90, 215, 254, 0.5) 93.12%
+  );
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4px;
+}
+.price-container-parent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 61px;
+  margin-left: -118px;
+  font-size: 24px;
+}
+.bid-information {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #191d23;
+  font-family: Manrope;
+}
+@media screen and (max-width: 450px) {
+  .price36,
+  .price37 {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,36 @@
+.plus-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.icon22 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 2px;
+}
+.button1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.button,
+.label34 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.label34 {
+  align-self: stretch;
+  padding: 0 2px;
+}
+.button {
+  border-radius: 20px;
+  display: flex;
+  padding: 0 6px;
+  text-align: left;
+  font-size: 14px;
+  color: #1f1f1f;
+  font-family: Poppins;
+}

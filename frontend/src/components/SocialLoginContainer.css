@@ -1,0 +1,165 @@
+.frame-item {
+  height: 1px;
+  width: 293px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 16px;
+  left: calc(50% - 146px);
+  border-top: 1px solid #4b5768;
+  box-sizing: border-box;
+}
+.or-sign-up {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.divider-label-container {
+  height: 35px;
+  flex: 1;
+  background-color: #fff;
+  justify-content: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.divider-label-container,
+.line-parent,
+.social-login-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.line-parent {
+  width: 112px;
+  justify-content: flex-start;
+  position: relative;
+}
+.social-login-divider {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px;
+}
+.logo-googleg-48dp {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+}
+.google {
+  position: relative;
+  font-size: 12px;
+  font-family: Manrope;
+  color: #191d23;
+  text-align: left;
+  display: inline-block;
+  min-width: 40px;
+}
+.google-button {
+  cursor: pointer;
+  border: 1px solid #d0d5dd;
+  padding: 6px 32px;
+  background-color: transparent;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  opacity: 0.8;
+}
+.google-button:hover {
+  background-color: rgba(184, 189, 196, 0.09);
+  border: 1px solid #b8bdc4;
+  box-sizing: border-box;
+}
+.path4-icon {
+  height: 16px;
+  width: 14px;
+  position: relative;
+}
+.path4-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.apple {
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+}
+.apple-button {
+  border-radius: 4px;
+  border: 1px solid #d0d5dd;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 37px;
+  gap: 6px;
+}
+.path14-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.facebook-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}
+.facebook {
+  position: relative;
+  font-size: 12px;
+  font-family: Manrope;
+  color: #191d23;
+  text-align: left;
+  display: inline-block;
+  min-width: 54px;
+}
+.apple-button1 {
+  cursor: pointer;
+  border: 1px solid #d0d5dd;
+  padding: 6px 25px;
+  background-color: transparent;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.social-buttons-container,
+.social-login-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #191d23;
+}
+.social-login-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 8px;
+  gap: 5px;
+  text-align: left;
+  font-size: 14px;
+  color: #4b5768;
+  font-family: Manrope;
+}
+@media screen and (max-width: 450px) {
+  .social-buttons-container {
+    flex-wrap: wrap;
+  }
+}

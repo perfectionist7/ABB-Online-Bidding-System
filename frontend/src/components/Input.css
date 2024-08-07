@@ -1,0 +1,114 @@
+.text79 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.divider13 {
+  height: 13px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid #dbdbdb;
+  box-sizing: border-box;
+}
+.divider12 {
+  height: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.divider12,
+.postfix,
+.prefix {
+  flex-direction: row;
+}
+.prefix {
+  height: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.postfix {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.handle,
+.icon23 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.handle {
+  width: 4px;
+  height: 11px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.text-area-indicator1 {
+  width: 8.7px;
+  height: 8.7px;
+  position: relative;
+}
+.text-area-indicator {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.input3 {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2px 11px;
+  gap: 8px;
+  max-width: 100%;
+}
+.optional-helper-text {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  max-width: 100%;
+}
+.helper,
+.input-field,
+.input2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.helper {
+  width: 323px;
+  flex-direction: row;
+  font-size: 12px;
+  color: #696969;
+}
+.input-field,
+.input2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input-field {
+  color: rgba(31, 31, 31, 0.3);
+}
+.input2 {
+  text-align: left;
+  font-size: 14px;
+  color: #ef3934;
+  font-family: Poppins;
+}

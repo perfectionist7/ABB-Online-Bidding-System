@@ -1,0 +1,72 @@
+.empty-circle-icon1 {
+  width: 43px;
+  height: 43px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.rating-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+}
+.star-icon1 {
+  width: 116px;
+  height: 22.6px;
+  position: relative;
+}
+.these-headphones-are {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+}
+.kristin-watson,
+.march-14-2021 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 98px;
+}
+.march-14-2021 {
+  color: #71717a;
+  min-width: 96px;
+}
+.rating,
+.reviewer,
+.stars {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviewer {
+  flex-direction: column;
+  gap: 3px;
+  font-size: 14px;
+}
+.rating,
+.stars {
+  max-width: 100%;
+}
+.stars {
+  flex: 1;
+  flex-direction: column;
+  gap: 22.2px;
+  min-width: 370px;
+}
+.rating {
+  width: 636px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 23px;
+  text-align: left;
+  font-size: 16px;
+  color: #18181b;
+  font-family: "Plus Jakarta Sans";
+}
+@media screen and (max-width: 450px) {
+  .stars {
+    min-width: 100%;
+  }
+}

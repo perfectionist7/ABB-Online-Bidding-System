@@ -1,0 +1,106 @@
+.established-connections {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 128px;
+  white-space: nowrap;
+}
+.frame-inner {
+  width: 1px;
+  height: 19px;
+  position: relative;
+  border-right: 1px solid #696969;
+  box-sizing: border-box;
+}
+.connections-content-inner {
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+  box-sizing: border-box;
+}
+.add-subtitle {
+  align-self: stretch;
+  position: relative;
+  white-space: nowrap;
+}
+.add-subtitle-container,
+.connections-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.add-subtitle-container {
+  flex: 1;
+  flex-direction: column;
+  padding: 6px 0 0;
+  font-size: 14px;
+  color: #191d23;
+  font-family: Poppins;
+}
+.connections-content {
+  width: 310px;
+  flex-direction: row;
+  gap: 11.5px;
+}
+.abb-close-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.icon24 {
+  height: 32px;
+  width: 32px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.connections-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #1f1f1f;
+  font-family: ABBvoice;
+}
+.input-divider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #bababa;
+  box-sizing: border-box;
+}
+.connections-header-parent,
+.input-divider-parent,
+.numeric-input1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  max-width: 100%;
+}
+.connections-header-parent,
+.input-divider-parent {
+  gap: 9px;
+}
+.connections-header-parent {
+  gap: 30px;
+  text-align: left;
+  font-size: 14px;
+  color: #ef3934;
+  font-family: Poppins;
+}
