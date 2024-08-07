@@ -37,7 +37,8 @@ Ensure you have the following installed on your machine:
 
 1. **Get the project files**
 
-    Extract the provided zip file and open the "Online Bidding System" folder.
+    Clone the project from GitHub using this link: [https://github.com/perfectionist7/ABB-Online-Bidding-Project](https://github.com/perfectionist7/ABB-Online-Bidding-Project). Once cloned, open the "Online Bidding System" folder.
+
 
 2. **Backend Setup**
 
